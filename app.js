@@ -17,4 +17,6 @@ console.log(lotr.name)
 // Do things with those instances
 
 
-// 
+// create an instance of a library
+
+// add media instances into library instance
