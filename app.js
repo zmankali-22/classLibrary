@@ -29,3 +29,12 @@ libraryInstance.books.push(lotr)
 // log the data in the library
 console.log(libraryInstance)
 console.log(libraryInstance.books[0].name)
+
+let lotr2 = new Book("the twin towers", "fancy")
+console.log(libraryInstance.books.length)
+console.log(Book.count)
+lotr = null
+Book.removeBook()
+console.log(Book.count)
+
+console.log(libraryInstance.books[0].getBookName())
